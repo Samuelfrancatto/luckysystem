@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+@media screen and (max-width:990px){
+    .tabela-box{
+        top: 5%;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 60vw;
+        height: 30vh;
+    }
+
+    .tabela-box table{
+        width: 60vw;
+    }
+
+    table tr td{
+        width: auto;
+    }
+
+    #remove{
+        top: 29%;
+        left: 12%;
+    }
+}

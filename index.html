@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de sorteio</title>
+
+    <link rel="stylesheet" href="estilos/style.css">
+
+    <link rel="stylesheet" href="estilos/media-query.css">
+</head>
+<body>
+
+    <div class="box">
+        <form>
+            <label for="premio">Prêmio:</label>
+            <input type="text" name="premio" id="premio">
+
+           
+                <label for="nome">Adicionar novo nome:</label>
+
+                <div class="add-box">
+                <input type="text" name="nome" id="nome">
+                </div>
+              
+            
+        </form>
+
+            <div class="button-box">
+                <button id="add">
+                <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-plus" viewBox="0 0 16 16">
+                    <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z"/>
+                </svg>
+                </button>
+            </div>
+        
+        
+    </div>
+
+
+    <div class="controleTabela">
+        <div class="tabela-box">
+            <table id="tabela">
+        
+            </table>
+        </div>
+
+        <button id="remove">
+            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-trash" viewBox="0 0 16 16">
+                <path d="M5.5 5.5A.5.5 0 0 1 6 6v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5Zm2.5 0a.5.5 0 0 1 .5.5v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5Zm3 .5a.5.5 0 0 0-1 0v6a.5.5 0 0 0 1 0V6Z"/>
+                <path d="M14.5 3a1 1 0 0 1-1 1H13v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V4h-.5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1H6a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1h3.5a1 1 0 0 1 1 1v1ZM4.118 4 4 4.059V13a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V4.059L11.882 4H4.118ZM2.5 3h11V2h-11v1Z"/>
+              </svg>
+        </button>
+    </div>
+
+    <button id="sortear">Sortear</button>
+
+    <script src="scripts/script.js"></script>
+
+    
+    
+</body>
+</html>
