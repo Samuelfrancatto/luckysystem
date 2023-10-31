@@ -148,6 +148,9 @@ table tr:nth-child(even){
     cursor: pointer;
 }
 
-/* #sortear:active{
-    transform: scale(0.9);
-} */
+#version{
+    position: absolute;
+    top: 96%;
+    padding: 5px;
+    background-color: lightgray;
+}
