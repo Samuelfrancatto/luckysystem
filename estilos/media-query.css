@@ -22,3 +22,10 @@
         left: 12%;
     }
 }
+
+@media screen and (max-width: 500px){
+    #remove{
+        top: 27%;
+        left: 0;
+    }
+}
