@@ -21,6 +21,10 @@
         top: 29%;
         left: 12%;
     }
+
+    #info{
+        display: none;
+    }
 }
 
 @media screen and (max-width: 500px){

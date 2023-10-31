@@ -149,6 +149,37 @@ table tr:nth-child(even){
     cursor: pointer;
 }
 
+#info{
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    transform: translateY(-50%);
+    padding: 10px;
+    background-color: lightgray;
+    width: 30vw;
+    border: 1px solid black;
+}
+
+#info h1{
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+#info p{
+    line-height: 20px;
+    margin: 10px 0px;
+}
+
+#info #autor{
+    background-color: gray;
+    margin: -10px;
+    padding: 5px;
+    text-align: center;
+    color: white;
+    font-size: 15px;
+}
+
 #version{
     position: absolute;
     top: 96%;
